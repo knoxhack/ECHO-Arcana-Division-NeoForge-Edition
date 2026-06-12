@@ -1,0 +1,10 @@
+{
+  "name": "arcana-division-neoforge-edition",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-arcana-division-edition.mjs",
+    "validate": "node scripts/validate-arcana-division-edition.mjs"
+  }
+}
