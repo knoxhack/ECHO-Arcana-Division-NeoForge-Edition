@@ -10,7 +10,7 @@ const expected = {
   version: '1.0.0',
   channel: 'beta',
   target: 'neoforge',
-  moduleRequirements: 24,
+  moduleRequirements: 39,
 }
 
 async function sha256(filePath) {
@@ -32,7 +32,7 @@ if (manifest.pack !== expected.packId) errors.push('pack id mismatch')
 if (manifest.version !== expected.version) errors.push('manifest version mismatch')
 if (manifest.channel !== expected.channel) errors.push('manifest channel mismatch')
 if (manifest.target !== expected.target) errors.push('manifest target mismatch')
-if ((manifest.moduleRequirements ?? []).length !== expected.moduleRequirements) errors.push('moduleRequirements must contain 24 entries')
+if ((manifest.moduleRequirements ?? []).length !== expected.moduleRequirements) errors.push(`moduleRequirements must contain ${expected.moduleRequirements} entries`)
 if (!manifest.files?.some((file) => file.moduleId === 'echoarcanadivisionprotocol')) errors.push('pack root protocol artifact is missing from files')
 if (release.id !== expected.packId) errors.push('release id mismatch')
 if (release.releaseTag !== 'arcana-division-neoforge-1.0.0-beta') errors.push('release tag mismatch')

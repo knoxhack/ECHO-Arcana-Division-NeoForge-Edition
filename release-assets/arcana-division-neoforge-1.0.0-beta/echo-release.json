@@ -10,7 +10,7 @@
   "sourceRepo": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition",
   "moduleReleaseId": "modules-arcana-division-1.0.0-beta",
   "moduleReleaseSource": "https://github.com/knoxhack/ECHO-Modules",
-  "moduleRequirementCount": 24,
+  "moduleRequirementCount": 39,
   "packRoot": {
     "id": "echoarcanadivisionprotocol",
     "version": "1.0.0"
@@ -26,13 +26,15 @@
     "manifest": {
       "role": "manifest",
       "file": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-      "sha256": "10c59d78ff260cf9ef8c451db22dc188cb925c100d9a41782f8229a0a488859c",
-      "size": 23254,
+      "sha256": "10998f11d564e1e7d976b4649282a6183ba3d25612a1a5c22d0eeeff20d74063",
+      "size": 33093,
       "url": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition/releases/download/arcana-division-neoforge-1.0.0-beta/arcana-division-neoforge-edition-beta-1.0.0.pack.json"
     }
   },
   "validation": {
     "state": "warning",
     "reason": "Local beta artifacts generated; promote to approved after GitHub release asset URLs, sizes, and hashes are indexed."
-  }
+  },
+  "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
+  "manifestSha256": "10998f11d564e1e7d976b4649282a6183ba3d25612a1a5c22d0eeeff20d74063"
 }

@@ -23,18 +23,18 @@
     },
     {
       "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-      "size": 23254,
-      "sha256": "10c59d78ff260cf9ef8c451db22dc188cb925c100d9a41782f8229a0a488859c"
+      "size": 33093,
+      "sha256": "10998f11d564e1e7d976b4649282a6183ba3d25612a1a5c22d0eeeff20d74063"
     },
     {
       "name": "checksums.txt",
       "size": 313,
-      "sha256": "c30292bfdfe91c15d29baad679d193b08e8db5d244cb66490fdd2b469c022316"
+      "sha256": "edc69eea68b522ac683ebef7c848178938a71503cb06a2f87798bcb2b2503a37"
     },
     {
       "name": "echo-release.json",
-      "size": 1637,
-      "sha256": "30734813362bacc8a18f18f31f0bbfcd4c595d46bcc9278424f4e1a38f48419d"
+      "size": 1801,
+      "sha256": "3e5144709817883906fcea22f050a86d1b80b4376c8de4db605b343c0a1f5cdc"
     }
   ],
   "zip": {
@@ -61,20 +61,20 @@
     },
     {
       "file": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-      "expectedSha256": "10c59d78ff260cf9ef8c451db22dc188cb925c100d9a41782f8229a0a488859c",
-      "actualSha256": "10c59d78ff260cf9ef8c451db22dc188cb925c100d9a41782f8229a0a488859c",
+      "expectedSha256": "10998f11d564e1e7d976b4649282a6183ba3d25612a1a5c22d0eeeff20d74063",
+      "actualSha256": "10998f11d564e1e7d976b4649282a6183ba3d25612a1a5c22d0eeeff20d74063",
       "coveredBy": "release-asset-file",
       "matchedPath": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-      "size": 23254,
+      "size": 33093,
       "ok": true
     },
     {
       "file": "echo-release.json",
-      "expectedSha256": "30734813362bacc8a18f18f31f0bbfcd4c595d46bcc9278424f4e1a38f48419d",
-      "actualSha256": "30734813362bacc8a18f18f31f0bbfcd4c595d46bcc9278424f4e1a38f48419d",
+      "expectedSha256": "3e5144709817883906fcea22f050a86d1b80b4376c8de4db605b343c0a1f5cdc",
+      "actualSha256": "3e5144709817883906fcea22f050a86d1b80b4376c8de4db605b343c0a1f5cdc",
       "coveredBy": "release-asset-file",
       "matchedPath": "echo-release.json",
-      "size": 1637,
+      "size": 1801,
       "ok": true
     }
   ],
