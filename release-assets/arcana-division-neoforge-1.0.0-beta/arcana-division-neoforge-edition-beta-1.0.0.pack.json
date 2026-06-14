@@ -10,8 +10,8 @@
   "minecraftVersion": "1.21.1",
   "artifactMode": "zip",
   "artifactName": "arcana-division-neoforge-edition-1.0.0.zip",
-  "artifactSha256": "6eeb817c8142651974708829de92f49c584058301234ffc25980534a223b7551",
-  "artifactSize": 7550,
+  "artifactSha256": "d8e05d5c7f5cbdb26fe8f01fe73c1890376b888940114a409c7b6604c0121792",
+  "artifactSize": 7613,
   "moduleArtifactFamily": "neoforge",
   "moduleReleaseId": "modules-arcana-division-1.0.0-beta",
   "moduleRequirements": [
@@ -1278,21 +1278,26 @@
   "worldgenWarning": true,
   "loader": {
     "type": "neoforge",
-    "version": "26.1.2",
-    "minecraftLauncherVersionId": "neoforge-26.1.2",
+    "version": "26.1.2.29-beta",
+    "minecraftLauncherVersionId": "neoforge-26.1.2.29-beta",
     "installer": {
       "assetName": "neoforge-26.1.2-installer.jar",
       "sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
       "installMode": "client"
     },
     "versionJson": {
-      "id": "neoforge-26.1.2",
+      "id": "neoforge-26.1.2.29-beta",
       "inheritsFrom": "1.21.1",
       "mainClass": "net.neoforged.neoforge.client.ClientMain",
       "arguments": {
         "game": [],
         "jvm": []
-      }
+      },
+      "libraries": [
+        {
+          "name": "net.neoforged:neoforge:26.1.2.29-beta"
+        }
+      ]
     }
   },
   "launch": {
@@ -1310,7 +1315,7 @@
   },
   "runtimeTarget": "neoforge",
   "artifactUrl": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition/releases/download/arcana-division-neoforge-1.0.0-beta/arcana-division-neoforge-edition-1.0.0.zip",
-  "updatedAt": "2026-06-14T00:31:22.860Z",
+  "updatedAt": "2026-06-14T00:51:31.083Z",
   "generatedBy": "scripts/rebuild-official-modpack-assets",
   "validation": "approved",
   "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json"

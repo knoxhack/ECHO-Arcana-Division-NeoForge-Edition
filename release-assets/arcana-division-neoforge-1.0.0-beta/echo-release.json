@@ -4,14 +4,14 @@
   "name": "Arcana Division NeoForge Edition",
   "version": "1.0.0",
   "channel": "beta",
-  "releasedAt": "2026-06-14T00:31:22.881Z",
+  "releasedAt": "2026-06-14T00:51:31.088Z",
   "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-  "manifestSha256": "dd839e0d1f5511f27d2f8cdc32289ddc04f6e6717f15240597bdc854436d1287",
-  "manifestSize": 53123,
+  "manifestSha256": "0e5094256df069eeb6f24063ae8238e4c5ceac62d496ecec8d55930db3bd6cc3",
+  "manifestSize": 53255,
   "artifactMode": "zip",
   "artifactAsset": "arcana-division-neoforge-edition-1.0.0.zip",
-  "artifactSha256": "6eeb817c8142651974708829de92f49c584058301234ffc25980534a223b7551",
-  "artifactSize": 7550,
+  "artifactSha256": "d8e05d5c7f5cbdb26fe8f01fe73c1890376b888940114a409c7b6604c0121792",
+  "artifactSize": 7613,
   "moduleRelease": "modules-all-official-modpacks-install-fix-20260613",
   "packs": [
     {
@@ -27,14 +27,14 @@
     {
       "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "dd839e0d1f5511f27d2f8cdc32289ddc04f6e6717f15240597bdc854436d1287",
-      "size": 53123
+      "sha256": "0e5094256df069eeb6f24063ae8238e4c5ceac62d496ecec8d55930db3bd6cc3",
+      "size": 53255
     },
     {
       "name": "arcana-division-neoforge-edition-1.0.0.zip",
       "role": "pack-artifact",
-      "sha256": "6eeb817c8142651974708829de92f49c584058301234ffc25980534a223b7551",
-      "size": 7550
+      "sha256": "d8e05d5c7f5cbdb26fe8f01fe73c1890376b888940114a409c7b6604c0121792",
+      "size": 7613
     }
   ],
   "notes": [
