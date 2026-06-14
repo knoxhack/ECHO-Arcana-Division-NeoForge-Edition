@@ -1,40 +1,44 @@
 {
-  "schemaVersion": "echo.pack.release.v1",
-  "id": "arcana-division-neoforge-edition",
+  "formatVersion": 2,
+  "pack": "arcana-division-neoforge-edition",
   "name": "Arcana Division NeoForge Edition",
   "version": "1.0.0",
   "channel": "beta",
-  "target": "neoforge",
-  "releaseTag": "arcana-division-neoforge-1.0.0-beta",
-  "generatedAt": "2026-06-12T09:47:01.708Z",
-  "sourceRepo": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition",
-  "moduleReleaseId": "modules-arcana-division-1.0.0-beta",
-  "moduleReleaseSource": "https://github.com/knoxhack/ECHO-Modules",
-  "moduleRequirementCount": 39,
-  "packRoot": {
-    "id": "echoarcanadivisionprotocol",
-    "version": "1.0.0"
-  },
-  "artifacts": {
-    "pack": {
-      "role": "pack",
-      "file": "arcana-division-neoforge-edition-1.0.0.zip",
-      "sha256": "1194785f8feb4a72d3fbc64fe0c1f025a0def4b51afc300edfd925cc95ae7e0b",
-      "size": 96158590,
-      "url": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition/releases/download/arcana-division-neoforge-1.0.0-beta/arcana-division-neoforge-edition-1.0.0.zip"
-    },
-    "manifest": {
-      "role": "manifest",
-      "file": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-      "sha256": "10998f11d564e1e7d976b4649282a6183ba3d25612a1a5c22d0eeeff20d74063",
-      "size": 33093,
-      "url": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition/releases/download/arcana-division-neoforge-1.0.0-beta/arcana-division-neoforge-edition-beta-1.0.0.pack.json"
-    }
-  },
-  "validation": {
-    "state": "warning",
-    "reason": "Local beta artifacts generated; promote to approved after GitHub release asset URLs, sizes, and hashes are indexed."
-  },
+  "releasedAt": "2026-06-14T00:31:22.881Z",
   "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-  "manifestSha256": "10998f11d564e1e7d976b4649282a6183ba3d25612a1a5c22d0eeeff20d74063"
+  "manifestSha256": "dd839e0d1f5511f27d2f8cdc32289ddc04f6e6717f15240597bdc854436d1287",
+  "manifestSize": 53123,
+  "artifactMode": "zip",
+  "artifactAsset": "arcana-division-neoforge-edition-1.0.0.zip",
+  "artifactSha256": "6eeb817c8142651974708829de92f49c584058301234ffc25980534a223b7551",
+  "artifactSize": 7550,
+  "moduleRelease": "modules-all-official-modpacks-install-fix-20260613",
+  "packs": [
+    {
+      "pack": "arcana-division-neoforge-edition",
+      "name": "Arcana Division NeoForge Edition",
+      "version": "1.0.0",
+      "channel": "beta",
+      "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
+      "artifactAsset": "arcana-division-neoforge-edition-1.0.0.zip"
+    }
+  ],
+  "assets": [
+    {
+      "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
+      "role": "pack-manifest",
+      "sha256": "dd839e0d1f5511f27d2f8cdc32289ddc04f6e6717f15240597bdc854436d1287",
+      "size": 53123
+    },
+    {
+      "name": "arcana-division-neoforge-edition-1.0.0.zip",
+      "role": "pack-artifact",
+      "sha256": "6eeb817c8142651974708829de92f49c584058301234ffc25980534a223b7551",
+      "size": 7550
+    }
+  ],
+  "notes": [
+    "Rebuilt arcana-division-neoforge-edition against approved module release modules-all-official-modpacks-install-fix-20260613.",
+    "Manifest files contain GitHub HTTPS URLs for every module artifact used by install, repair, and update."
+  ]
 }

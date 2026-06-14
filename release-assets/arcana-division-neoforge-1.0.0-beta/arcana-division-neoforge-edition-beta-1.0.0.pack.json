@@ -6,12 +6,12 @@
   "version": "1.0.0",
   "channel": "beta",
   "target": "neoforge",
-  "minecraft": "26.1.2",
-  "minecraftVersion": "26.1.2",
+  "minecraft": "1.21.1",
+  "minecraftVersion": "1.21.1",
   "artifactMode": "zip",
   "artifactName": "arcana-division-neoforge-edition-1.0.0.zip",
-  "artifactSha256": "1194785f8feb4a72d3fbc64fe0c1f025a0def4b51afc300edfd925cc95ae7e0b",
-  "artifactSize": 96158590,
+  "artifactSha256": "6eeb817c8142651974708829de92f49c584058301234ffc25980534a223b7551",
+  "artifactSize": 7550,
   "moduleArtifactFamily": "neoforge",
   "moduleReleaseId": "modules-arcana-division-1.0.0-beta",
   "moduleRequirements": [
@@ -23,10 +23,11 @@
       "assetName": "echoadaptercore-1.0.0-neoforge.jar",
       "artifactName": "echoadaptercore-1.0.0-neoforge.jar",
       "path": "mods/echoadaptercore-1.0.0-neoforge.jar",
+      "sha256": "0b05949ee9f66eb6e205eaa576fb1c2eccbe8caa22569058596804cffaf3cccb",
+      "size": 944438,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoadaptercore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "718ce54c8f2e36d433aafa03e5c3902b59673c4de8f3fda488046714b5843b51",
-      "size": 947036
+      "side": "both"
     },
     {
       "id": "echoaetherworks",
@@ -36,10 +37,11 @@
       "assetName": "echoaetherworks-1.0.0-neoforge.jar",
       "artifactName": "echoaetherworks-1.0.0-neoforge.jar",
       "path": "mods/echoaetherworks-1.0.0-neoforge.jar",
+      "sha256": "d5235fec44a53e90e877dba8ca272e822aee358a8c7f1601d595df332005b25c",
+      "size": 91177,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoaetherworks-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "447217677ce83ae0e59a9ffcd49ec7d41a368335aea3bc9707ac591f63d366dc",
-      "size": 94187
+      "side": "both"
     },
     {
       "id": "echoarcanacore",
@@ -49,10 +51,11 @@
       "assetName": "echoarcanacore-1.0.0-neoforge.jar",
       "artifactName": "echoarcanacore-1.0.0-neoforge.jar",
       "path": "mods/echoarcanacore-1.0.0-neoforge.jar",
+      "sha256": "628bd4254ac20a2630d33df1de9d0b21b6a5af6d56c1754648bb1945cd485c28",
+      "size": 127329,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoarcanacore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "e1f6767c7ead0ce035bead3d936cb4993c060ae3a88f386bcbbd6421e670eafa",
-      "size": 128729
+      "side": "both"
     },
     {
       "id": "echoarcanadivisionprotocol",
@@ -62,6 +65,9 @@
       "assetName": "echoarcanadivisionprotocol-1.0.0-neoforge.jar",
       "artifactName": "echoarcanadivisionprotocol-1.0.0-neoforge.jar",
       "path": "mods/echoarcanadivisionprotocol-1.0.0-neoforge.jar",
+      "sha256": "b19885c0d7a54978d1cfb3e2ec9c7ccc3f3ed7c7e205383744ea6f9063d8de9e",
+      "size": 8371,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoarcanadivisionprotocol-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -73,6 +79,9 @@
       "assetName": "echoarcaneindex-1.0.0-neoforge.jar",
       "artifactName": "echoarcaneindex-1.0.0-neoforge.jar",
       "path": "mods/echoarcaneindex-1.0.0-neoforge.jar",
+      "sha256": "f4a276fa669d2d3f4b0322a520ddb0b831605c78883c5a976fcec4f4b9f1b20d",
+      "size": 31412,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoarcaneindex-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -84,6 +93,9 @@
       "assetName": "echoblockworks-1.0.0-neoforge.jar",
       "artifactName": "echoblockworks-1.0.0-neoforge.jar",
       "path": "mods/echoblockworks-1.0.0-neoforge.jar",
+      "sha256": "68bc4f707c33b8d8591b8051f6e9e33eeabab38dce4075389353f24c1fbfb55d",
+      "size": 1302377,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoblockworks-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -95,6 +107,9 @@
       "assetName": "echocodexcore-1.0.0-neoforge.jar",
       "artifactName": "echocodexcore-1.0.0-neoforge.jar",
       "path": "mods/echocodexcore-1.0.0-neoforge.jar",
+      "sha256": "8e64a5685b741018734233904ff67f8e7b3ca41863fdc082d453acb116907383",
+      "size": 23060,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocodexcore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -106,10 +121,11 @@
       "assetName": "echocommonloot-0.1.0-neoforge.jar",
       "artifactName": "echocommonloot-0.1.0-neoforge.jar",
       "path": "mods/echocommonloot-0.1.0-neoforge.jar",
+      "sha256": "7ebc9c0f6444b422058e891a2a9b812db6ef8c99ec7ad0ba9a64b94f75189411",
+      "size": 7784,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocommonloot-0.1.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "685a5bf582298567f29351188e6c13585044495d4a7e46022d7a357bf0926f6c",
-      "size": 6025
+      "side": "both"
     },
     {
       "id": "echocontentcore",
@@ -119,6 +135,9 @@
       "assetName": "echocontentcore-1.0.0-neoforge.jar",
       "artifactName": "echocontentcore-1.0.0-neoforge.jar",
       "path": "mods/echocontentcore-1.0.0-neoforge.jar",
+      "sha256": "61e02d63d0cc4aac9479d60465e7deea3bbdc4d3a852434f08e7fcd5784742c6",
+      "size": 33278,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocontentcore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -130,10 +149,11 @@
       "assetName": "echocore-1.0.0-neoforge.jar",
       "artifactName": "echocore-1.0.0-neoforge.jar",
       "path": "mods/echocore-1.0.0-neoforge.jar",
+      "sha256": "4f6cad77dc52f1c45a901725c82edc2c5066d757b4a5b7dc8592f0cbc29dc33c",
+      "size": 368898,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "56474273ccd8fd2e8f4f37e8410abe02823efb9031f791c6fff7956acda06d1d",
-      "size": 372263
+      "side": "both"
     },
     {
       "id": "echocreatureroles",
@@ -143,10 +163,11 @@
       "assetName": "echocreatureroles-0.1.0-neoforge.jar",
       "artifactName": "echocreatureroles-0.1.0-neoforge.jar",
       "path": "mods/echocreatureroles-0.1.0-neoforge.jar",
+      "sha256": "04300a92c27977a611be7e6d6b1f20c33969e2abf555346a825cfdd2bdf59d9f",
+      "size": 7627,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocreatureroles-0.1.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "4def40a63a3fb57c8c9c10bf50d7ac95f938b3a6957cd7b8ab199540fa20560f",
-      "size": 5898
+      "side": "both"
     },
     {
       "id": "echocursecore",
@@ -156,10 +177,11 @@
       "assetName": "echocursecore-1.0.0-neoforge.jar",
       "artifactName": "echocursecore-1.0.0-neoforge.jar",
       "path": "mods/echocursecore-1.0.0-neoforge.jar",
+      "sha256": "251520ce2f4a4c7c0bebbd4630ebb919574e3524bf648ce34eac4b97d6496055",
+      "size": 64087,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocursecore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "79df2cd8d089b2999e0b8ebef53030de1c915023952815eba47ec6aefdcba397",
-      "size": 67495
+      "side": "both"
     },
     {
       "id": "echofamiliarcore",
@@ -169,10 +191,11 @@
       "assetName": "echofamiliarcore-1.0.0-neoforge.jar",
       "artifactName": "echofamiliarcore-1.0.0-neoforge.jar",
       "path": "mods/echofamiliarcore-1.0.0-neoforge.jar",
+      "sha256": "a73783d5b744f32339f3d946c26695dd1d399905b7885c4fde3b0ccceda866a6",
+      "size": 50037,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echofamiliarcore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "5e1baf1d35f30eb8a1e67d960eee0dd42c9e00c93bb5d0462a83dee3c41226d9",
-      "size": 52903
+      "side": "both"
     },
     {
       "id": "echofoundationcore",
@@ -182,10 +205,11 @@
       "assetName": "echofoundationcore-0.1.0-neoforge.jar",
       "artifactName": "echofoundationcore-0.1.0-neoforge.jar",
       "path": "mods/echofoundationcore-0.1.0-neoforge.jar",
+      "sha256": "27353b883ccf37d38e2f8545f2d7529e88913292fc21b8e6799557a11a60721d",
+      "size": 10974,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echofoundationcore-0.1.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "1d46344581bd7f824adf98ef42e01be148be082513b2d77e6ffe1f62364da3c6",
-      "size": 9301
+      "side": "both"
     },
     {
       "id": "echogrimoire",
@@ -195,10 +219,11 @@
       "assetName": "echogrimoire-1.0.0-neoforge.jar",
       "artifactName": "echogrimoire-1.0.0-neoforge.jar",
       "path": "mods/echogrimoire-1.0.0-neoforge.jar",
+      "sha256": "e4ae6a3e03c9355fabf7a5c7e20ec1d328344eca3d71363952bc0c65fbc9d100",
+      "size": 29528,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echogrimoire-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "137ef85770ced3c4f4a8b57b4d8eff4755e18d40b93ec088e161a4336f4bd1d7",
-      "size": 30349
+      "side": "both"
     },
     {
       "id": "echoholomap",
@@ -208,10 +233,11 @@
       "assetName": "echoholomap-1.0.0-neoforge.jar",
       "artifactName": "echoholomap-1.0.0-neoforge.jar",
       "path": "mods/echoholomap-1.0.0-neoforge.jar",
+      "sha256": "21160d1481035c06346b846959ead0963ba78a8b48549bb6b28d6a453f393fc6",
+      "size": 1496617,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoholomap-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "ec288047f70ca59f3a74cfbfdbd044e3bf16ae53f4b87ea642e35a8226c81217",
-      "size": 1500613
+      "side": "both"
     },
     {
       "id": "echohudcore",
@@ -221,6 +247,9 @@
       "assetName": "echohudcore-1.0.0-neoforge.jar",
       "artifactName": "echohudcore-1.0.0-neoforge.jar",
       "path": "mods/echohudcore-1.0.0-neoforge.jar",
+      "sha256": "b236ec60e4a130d9b3904d979a624e023e08488161130165ee4ae127d065b790",
+      "size": 46538,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echohudcore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -232,10 +261,11 @@
       "assetName": "echoindex-1.0.0-neoforge.jar",
       "artifactName": "echoindex-1.0.0-neoforge.jar",
       "path": "mods/echoindex-1.0.0-neoforge.jar",
+      "sha256": "6127192d084369215b03511d30530ad0b50a99f8cc6681f11b9c42b851de415e",
+      "size": 586934,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoindex-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "8cbb3a46a34d3ee3e74e8872927c3eb5cd32697139fa5402c27ebc3f6455a785",
-      "size": 590437
+      "side": "both"
     },
     {
       "id": "echolens",
@@ -245,10 +275,11 @@
       "assetName": "echolens-1.0.0-neoforge.jar",
       "artifactName": "echolens-1.0.0-neoforge.jar",
       "path": "mods/echolens-1.0.0-neoforge.jar",
+      "sha256": "1d1f4b7641403d27205c155a4ad3b02d707065376bd030334a57c9554be7414a",
+      "size": 215171,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echolens-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "8eef6b58aa978085a5e706d20b634b848b362c8cd9383060652207bb2b9d5cd7",
-      "size": 219138
+      "side": "both"
     },
     {
       "id": "echomaterialcore",
@@ -258,10 +289,11 @@
       "assetName": "echomaterialcore-0.1.0-neoforge.jar",
       "artifactName": "echomaterialcore-0.1.0-neoforge.jar",
       "path": "mods/echomaterialcore-0.1.0-neoforge.jar",
+      "sha256": "9c10f96b4870f8fea83c36ef808aa2142b4ec8bb1d117e069c6f41f8e034ef0f",
+      "size": 13236,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomaterialcore-0.1.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "4b22e813aa6ba593ffcdc9661f69ac33d92f2e8b48ca466df372c0c9c8feed3e",
-      "size": 11962
+      "side": "both"
     },
     {
       "id": "echomissioncore",
@@ -271,10 +303,11 @@
       "assetName": "echomissioncore-1.0.0-neoforge.jar",
       "artifactName": "echomissioncore-1.0.0-neoforge.jar",
       "path": "mods/echomissioncore-1.0.0-neoforge.jar",
+      "sha256": "43176fbac099e4d8a06e8a44937d8ba5b13db2b5b8fab9117133830390541563",
+      "size": 103760,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomissioncore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "116592c905439963cc15aac1695c2edba9a065913ef777cd0aff331d81a54e66",
-      "size": 103331
+      "side": "both"
     },
     {
       "id": "echonetcore",
@@ -284,10 +317,11 @@
       "assetName": "echonetcore-1.0.0-neoforge.jar",
       "artifactName": "echonetcore-1.0.0-neoforge.jar",
       "path": "mods/echonetcore-1.0.0-neoforge.jar",
+      "sha256": "297243b98f05a6f6db64f9615c056d18b02314d7d53290cafc66a53d4b8e9e1b",
+      "size": 68893,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echonetcore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "bd155183464462d6af40f4b810cc8c68aa8c09eed37c9a01332d54de5ac30bea",
-      "size": 70690
+      "side": "both"
     },
     {
       "id": "echoplatformcore",
@@ -297,6 +331,9 @@
       "assetName": "echoplatformcore-1.0.0-neoforge.jar",
       "artifactName": "echoplatformcore-1.0.0-neoforge.jar",
       "path": "mods/echoplatformcore-1.0.0-neoforge.jar",
+      "sha256": "79f79e1a8b78e36f16f116e79a505558cca503f80a442ddcc0b7313356e4d830",
+      "size": 46644,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoplatformcore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -308,6 +345,9 @@
       "assetName": "echorelictech-1.0.0-neoforge.jar",
       "artifactName": "echorelictech-1.0.0-neoforge.jar",
       "path": "mods/echorelictech-1.0.0-neoforge.jar",
+      "sha256": "6155dcb76b61160216b9c4d6601718ba47f5ff96d524c1c5a0d0605bcc9db72e",
+      "size": 7709172,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echorelictech-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -319,10 +359,11 @@
       "assetName": "echoriftworlds-1.0.0-neoforge.jar",
       "artifactName": "echoriftworlds-1.0.0-neoforge.jar",
       "path": "mods/echoriftworlds-1.0.0-neoforge.jar",
+      "sha256": "e5a5dd47735f99fbc84a9b376667aa6c6877b895c4e70ff69e57931c36b0e5d8",
+      "size": 33394,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoriftworlds-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "eb3db3b0d25a7561204552e220584ffafc09bc5b748ec7f8324d39a6493beec2",
-      "size": 36345
+      "side": "both"
     },
     {
       "id": "echoritualcore",
@@ -332,10 +373,11 @@
       "assetName": "echoritualcore-1.0.0-neoforge.jar",
       "artifactName": "echoritualcore-1.0.0-neoforge.jar",
       "path": "mods/echoritualcore-1.0.0-neoforge.jar",
+      "sha256": "5844ee275702fbb086976e9dcb3db6d08754105f65c193c2cb12d9c8a3fdf739",
+      "size": 105140,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoritualcore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "fbfd4b1b32a938e1b38d4a243a7a751fb1216097ee26b797cbc4d5a83150a924",
-      "size": 110023
+      "side": "both"
     },
     {
       "id": "echoruntimeguard",
@@ -345,6 +387,9 @@
       "assetName": "echoruntimeguard-1.0.0-neoforge.jar",
       "artifactName": "echoruntimeguard-1.0.0-neoforge.jar",
       "path": "mods/echoruntimeguard-1.0.0-neoforge.jar",
+      "sha256": "a62a9f28dadd82e47846749da9eea430055c447846dd6cb658db0958d901f55a",
+      "size": 127460,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoruntimeguard-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -356,6 +401,9 @@
       "assetName": "echoschemacore-1.0.0-neoforge.jar",
       "artifactName": "echoschemacore-1.0.0-neoforge.jar",
       "path": "mods/echoschemacore-1.0.0-neoforge.jar",
+      "sha256": "e23735cff56ca2966687974bfaa34ace5d34e47f9f082618660ba288bc5dd97b",
+      "size": 30714,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoschemacore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -367,6 +415,9 @@
       "assetName": "echoscreencore-1.0.0-neoforge.jar",
       "artifactName": "echoscreencore-1.0.0-neoforge.jar",
       "path": "mods/echoscreencore-1.0.0-neoforge.jar",
+      "sha256": "e6cf6b82fa1b247430e5f014885b9b13e79d3c5d431ccbb5cc8a1a257eb3ef74",
+      "size": 392469,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoscreencore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -378,6 +429,9 @@
       "assetName": "echosoundcore-1.0.0-neoforge.jar",
       "artifactName": "echosoundcore-1.0.0-neoforge.jar",
       "path": "mods/echosoundcore-1.0.0-neoforge.jar",
+      "sha256": "7446f9e5665a21c183d41401ac4e07da23e0b3ac7d131cf11bdf2ce744981b82",
+      "size": 11079857,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echosoundcore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -389,10 +443,11 @@
       "assetName": "echospellcore-1.0.0-neoforge.jar",
       "artifactName": "echospellcore-1.0.0-neoforge.jar",
       "path": "mods/echospellcore-1.0.0-neoforge.jar",
+      "sha256": "08708081c9ff925af0d8c3d37583c6b1e10123e3203bfdb33857d759fdfd6fe1",
+      "size": 167062,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echospellcore-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "0d115eee4256fbd976c2b51359514a6bdaacf87af98de19976ab20bb444a438c",
-      "size": 171650
+      "side": "both"
     },
     {
       "id": "echostationcore",
@@ -402,10 +457,11 @@
       "assetName": "echostationcore-0.1.0-neoforge.jar",
       "artifactName": "echostationcore-0.1.0-neoforge.jar",
       "path": "mods/echostationcore-0.1.0-neoforge.jar",
+      "sha256": "159305f9a1f828a6c7ffb92b0b2cce29faedc6f22b75d6bbc8148a0373ad13a2",
+      "size": 9183,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echostationcore-0.1.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "415e850e4e5bd38b25594f4af179cc7c2d7c3bb1b5added377fe688f62b17177",
-      "size": 7826
+      "side": "both"
     },
     {
       "id": "echoterminal",
@@ -415,10 +471,11 @@
       "assetName": "echoterminal-1.0.0-neoforge.jar",
       "artifactName": "echoterminal-1.0.0-neoforge.jar",
       "path": "mods/echoterminal-1.0.0-neoforge.jar",
+      "sha256": "8dd9f28fc371d13967a355dcea58135124d873c8b0269c91f6f8693cc3b2a794",
+      "size": 22986204,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoterminal-1.0.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "e64ea9d7cdeefd19d32c6399d856aeec37f4810b97b866b9a6e8d3071c4233ab",
-      "size": 23014857
+      "side": "both"
     },
     {
       "id": "echothemecore",
@@ -428,10 +485,11 @@
       "assetName": "echothemecore-1.3.0-neoforge.jar",
       "artifactName": "echothemecore-1.3.0-neoforge.jar",
       "path": "mods/echothemecore-1.3.0-neoforge.jar",
+      "sha256": "1b74a176a5a08612b63214bb4e7162361ae9099ef15d86ff0115c72ab1d8abce",
+      "size": 69621182,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echothemecore-1.3.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "0b697170a08a391221e0a8d90f886319b68a6e236fd252096808b89ff4c45ef9",
-      "size": 69632011
+      "side": "both"
     },
     {
       "id": "echotoolcore",
@@ -441,10 +499,11 @@
       "assetName": "echotoolcore-0.1.0-neoforge.jar",
       "artifactName": "echotoolcore-0.1.0-neoforge.jar",
       "path": "mods/echotoolcore-0.1.0-neoforge.jar",
+      "sha256": "f99bff76c5ab9955b6fd3105fdc3c03fc3b11f49c3dd02ff1b0682df20b6d01a",
+      "size": 8994,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echotoolcore-0.1.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "3535c3d2a96cd1a8bbd880f55268f02570afc2071e760a666d19701f063ad02a",
-      "size": 7644
+      "side": "both"
     },
     {
       "id": "echotutorialcore",
@@ -454,6 +513,9 @@
       "assetName": "echotutorialcore-1.0.0-neoforge.jar",
       "artifactName": "echotutorialcore-1.0.0-neoforge.jar",
       "path": "mods/echotutorialcore-1.0.0-neoforge.jar",
+      "sha256": "5f7c65c065b08a40d11ff496e78905230aaf504029e4129b3acdf45f1c75db87",
+      "size": 214988,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echotutorialcore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -465,6 +527,9 @@
       "assetName": "echovalidationcore-1.0.0-neoforge.jar",
       "artifactName": "echovalidationcore-1.0.0-neoforge.jar",
       "path": "mods/echovalidationcore-1.0.0-neoforge.jar",
+      "sha256": "93069daa5354b19cc4e939ec374d9b01a5e06d8b9fc0caed7955d6d2072f6c88",
+      "size": 42006,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echovalidationcore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -476,6 +541,9 @@
       "assetName": "echoworldcore-1.0.0-neoforge.jar",
       "artifactName": "echoworldcore-1.0.0-neoforge.jar",
       "path": "mods/echoworldcore-1.0.0-neoforge.jar",
+      "sha256": "c15f531b6e370bfc845c31a1a3c1a060734d76317dd4cf35f0fdb9686c88c44c",
+      "size": 176880,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoworldcore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both"
     },
@@ -487,10 +555,11 @@
       "assetName": "echoworldstarter-0.1.0-neoforge.jar",
       "artifactName": "echoworldstarter-0.1.0-neoforge.jar",
       "path": "mods/echoworldstarter-0.1.0-neoforge.jar",
+      "sha256": "4fc4493fea0534356dd278b00c0b0738656dcb645bad150b091a8539bc25c819",
+      "size": 10307,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoworldstarter-0.1.0-neoforge.jar",
       "required": true,
-      "side": "both",
-      "sha256": "ccd20c05ad175f5e0ff59bde5d3c86dfcfd8647f56dff3f44e0f3673a130ba8b",
-      "size": 8945
+      "side": "both"
     }
   ],
   "requiredArtifacts": [
@@ -772,254 +841,433 @@
   ],
   "files": [
     {
-      "path": "mods/echocore-1.0.0-neoforge.jar",
-      "assetName": "echocore-1.0.0-neoforge.jar",
-      "sha256": "56474273ccd8fd2e8f4f37e8410abe02823efb9031f791c6fff7956acda06d1d",
-      "size": 372263,
-      "required": true,
-      "moduleId": "echocore",
-      "side": "both",
-      "artifactName": "echocore-1.0.0-neoforge.jar"
-    },
-    {
       "path": "mods/echoadaptercore-1.0.0-neoforge.jar",
       "assetName": "echoadaptercore-1.0.0-neoforge.jar",
-      "sha256": "718ce54c8f2e36d433aafa03e5c3902b59673c4de8f3fda488046714b5843b51",
-      "size": 947036,
+      "artifactName": "echoadaptercore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoadaptercore-1.0.0-neoforge.jar",
+      "sha256": "0b05949ee9f66eb6e205eaa576fb1c2eccbe8caa22569058596804cffaf3cccb",
+      "size": 944438,
       "required": true,
       "moduleId": "echoadaptercore",
-      "side": "both",
-      "artifactName": "echoadaptercore-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echonetcore-1.0.0-neoforge.jar",
-      "assetName": "echonetcore-1.0.0-neoforge.jar",
-      "sha256": "bd155183464462d6af40f4b810cc8c68aa8c09eed37c9a01332d54de5ac30bea",
-      "size": 70690,
-      "required": true,
-      "moduleId": "echonetcore",
-      "side": "both",
-      "artifactName": "echonetcore-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echofoundationcore-0.1.0-neoforge.jar",
-      "assetName": "echofoundationcore-0.1.0-neoforge.jar",
-      "sha256": "1d46344581bd7f824adf98ef42e01be148be082513b2d77e6ffe1f62364da3c6",
-      "size": 9301,
-      "required": true,
-      "moduleId": "echofoundationcore",
-      "side": "both",
-      "artifactName": "echofoundationcore-0.1.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echomaterialcore-0.1.0-neoforge.jar",
-      "assetName": "echomaterialcore-0.1.0-neoforge.jar",
-      "sha256": "4b22e813aa6ba593ffcdc9661f69ac33d92f2e8b48ca466df372c0c9c8feed3e",
-      "size": 11962,
-      "required": true,
-      "moduleId": "echomaterialcore",
-      "side": "both",
-      "artifactName": "echomaterialcore-0.1.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echotoolcore-0.1.0-neoforge.jar",
-      "assetName": "echotoolcore-0.1.0-neoforge.jar",
-      "sha256": "3535c3d2a96cd1a8bbd880f55268f02570afc2071e760a666d19701f063ad02a",
-      "size": 7644,
-      "required": true,
-      "moduleId": "echotoolcore",
-      "side": "both",
-      "artifactName": "echotoolcore-0.1.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echostationcore-0.1.0-neoforge.jar",
-      "assetName": "echostationcore-0.1.0-neoforge.jar",
-      "sha256": "415e850e4e5bd38b25594f4af179cc7c2d7c3bb1b5added377fe688f62b17177",
-      "size": 7826,
-      "required": true,
-      "moduleId": "echostationcore",
-      "side": "both",
-      "artifactName": "echostationcore-0.1.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echoworldstarter-0.1.0-neoforge.jar",
-      "assetName": "echoworldstarter-0.1.0-neoforge.jar",
-      "sha256": "ccd20c05ad175f5e0ff59bde5d3c86dfcfd8647f56dff3f44e0f3673a130ba8b",
-      "size": 8945,
-      "required": true,
-      "moduleId": "echoworldstarter",
-      "side": "both",
-      "artifactName": "echoworldstarter-0.1.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echocommonloot-0.1.0-neoforge.jar",
-      "assetName": "echocommonloot-0.1.0-neoforge.jar",
-      "sha256": "685a5bf582298567f29351188e6c13585044495d4a7e46022d7a357bf0926f6c",
-      "size": 6025,
-      "required": true,
-      "moduleId": "echocommonloot",
-      "side": "both",
-      "artifactName": "echocommonloot-0.1.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echocreatureroles-0.1.0-neoforge.jar",
-      "assetName": "echocreatureroles-0.1.0-neoforge.jar",
-      "sha256": "4def40a63a3fb57c8c9c10bf50d7ac95f938b3a6957cd7b8ab199540fa20560f",
-      "size": 5898,
-      "required": true,
-      "moduleId": "echocreatureroles",
-      "side": "both",
-      "artifactName": "echocreatureroles-0.1.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echoarcanacore-1.0.0-neoforge.jar",
-      "assetName": "echoarcanacore-1.0.0-neoforge.jar",
-      "sha256": "e1f6767c7ead0ce035bead3d936cb4993c060ae3a88f386bcbbd6421e670eafa",
-      "size": 128729,
-      "required": true,
-      "moduleId": "echoarcanacore",
-      "side": "both",
-      "artifactName": "echoarcanacore-1.0.0-neoforge.jar"
+      "side": "both"
     },
     {
       "path": "mods/echoaetherworks-1.0.0-neoforge.jar",
       "assetName": "echoaetherworks-1.0.0-neoforge.jar",
-      "sha256": "447217677ce83ae0e59a9ffcd49ec7d41a368335aea3bc9707ac591f63d366dc",
-      "size": 94187,
+      "artifactName": "echoaetherworks-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoaetherworks-1.0.0-neoforge.jar",
+      "sha256": "d5235fec44a53e90e877dba8ca272e822aee358a8c7f1601d595df332005b25c",
+      "size": 91177,
       "required": true,
       "moduleId": "echoaetherworks",
-      "side": "both",
-      "artifactName": "echoaetherworks-1.0.0-neoforge.jar"
+      "side": "both"
     },
     {
-      "path": "mods/echocursecore-1.0.0-neoforge.jar",
-      "assetName": "echocursecore-1.0.0-neoforge.jar",
-      "sha256": "79df2cd8d089b2999e0b8ebef53030de1c915023952815eba47ec6aefdcba397",
-      "size": 67495,
+      "path": "mods/echoarcanacore-1.0.0-neoforge.jar",
+      "assetName": "echoarcanacore-1.0.0-neoforge.jar",
+      "artifactName": "echoarcanacore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoarcanacore-1.0.0-neoforge.jar",
+      "sha256": "628bd4254ac20a2630d33df1de9d0b21b6a5af6d56c1754648bb1945cd485c28",
+      "size": 127329,
       "required": true,
-      "moduleId": "echocursecore",
-      "side": "both",
-      "artifactName": "echocursecore-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echofamiliarcore-1.0.0-neoforge.jar",
-      "assetName": "echofamiliarcore-1.0.0-neoforge.jar",
-      "sha256": "5e1baf1d35f30eb8a1e67d960eee0dd42c9e00c93bb5d0462a83dee3c41226d9",
-      "size": 52903,
-      "required": true,
-      "moduleId": "echofamiliarcore",
-      "side": "both",
-      "artifactName": "echofamiliarcore-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echogrimoire-1.0.0-neoforge.jar",
-      "assetName": "echogrimoire-1.0.0-neoforge.jar",
-      "sha256": "137ef85770ced3c4f4a8b57b4d8eff4755e18d40b93ec088e161a4336f4bd1d7",
-      "size": 30349,
-      "required": true,
-      "moduleId": "echogrimoire",
-      "side": "both",
-      "artifactName": "echogrimoire-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echoriftworlds-1.0.0-neoforge.jar",
-      "assetName": "echoriftworlds-1.0.0-neoforge.jar",
-      "sha256": "eb3db3b0d25a7561204552e220584ffafc09bc5b748ec7f8324d39a6493beec2",
-      "size": 36345,
-      "required": true,
-      "moduleId": "echoriftworlds",
-      "side": "both",
-      "artifactName": "echoriftworlds-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echoritualcore-1.0.0-neoforge.jar",
-      "assetName": "echoritualcore-1.0.0-neoforge.jar",
-      "sha256": "fbfd4b1b32a938e1b38d4a243a7a751fb1216097ee26b797cbc4d5a83150a924",
-      "size": 110023,
-      "required": true,
-      "moduleId": "echoritualcore",
-      "side": "both",
-      "artifactName": "echoritualcore-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echospellcore-1.0.0-neoforge.jar",
-      "assetName": "echospellcore-1.0.0-neoforge.jar",
-      "sha256": "0d115eee4256fbd976c2b51359514a6bdaacf87af98de19976ab20bb444a438c",
-      "size": 171650,
-      "required": true,
-      "moduleId": "echospellcore",
-      "side": "both",
-      "artifactName": "echospellcore-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echoholomap-1.0.0-neoforge.jar",
-      "assetName": "echoholomap-1.0.0-neoforge.jar",
-      "sha256": "ec288047f70ca59f3a74cfbfdbd044e3bf16ae53f4b87ea642e35a8226c81217",
-      "size": 1500613,
-      "required": true,
-      "moduleId": "echoholomap",
-      "side": "both",
-      "artifactName": "echoholomap-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echoindex-1.0.0-neoforge.jar",
-      "assetName": "echoindex-1.0.0-neoforge.jar",
-      "sha256": "8cbb3a46a34d3ee3e74e8872927c3eb5cd32697139fa5402c27ebc3f6455a785",
-      "size": 590437,
-      "required": true,
-      "moduleId": "echoindex",
-      "side": "both",
-      "artifactName": "echoindex-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echolens-1.0.0-neoforge.jar",
-      "assetName": "echolens-1.0.0-neoforge.jar",
-      "sha256": "8eef6b58aa978085a5e706d20b634b848b362c8cd9383060652207bb2b9d5cd7",
-      "size": 219138,
-      "required": true,
-      "moduleId": "echolens",
-      "side": "both",
-      "artifactName": "echolens-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echoterminal-1.0.0-neoforge.jar",
-      "assetName": "echoterminal-1.0.0-neoforge.jar",
-      "sha256": "e64ea9d7cdeefd19d32c6399d856aeec37f4810b97b866b9a6e8d3071c4233ab",
-      "size": 23014857,
-      "required": true,
-      "moduleId": "echoterminal",
-      "side": "both",
-      "artifactName": "echoterminal-1.0.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echothemecore-1.3.0-neoforge.jar",
-      "assetName": "echothemecore-1.3.0-neoforge.jar",
-      "sha256": "0b697170a08a391221e0a8d90f886319b68a6e236fd252096808b89ff4c45ef9",
-      "size": 69632011,
-      "required": true,
-      "moduleId": "echothemecore",
-      "side": "both",
-      "artifactName": "echothemecore-1.3.0-neoforge.jar"
-    },
-    {
-      "path": "mods/echomissioncore-1.0.0-neoforge.jar",
-      "assetName": "echomissioncore-1.0.0-neoforge.jar",
-      "sha256": "116592c905439963cc15aac1695c2edba9a065913ef777cd0aff331d81a54e66",
-      "size": 103331,
-      "required": true,
-      "moduleId": "echomissioncore",
-      "side": "both",
-      "artifactName": "echomissioncore-1.0.0-neoforge.jar"
+      "moduleId": "echoarcanacore",
+      "side": "both"
     },
     {
       "path": "mods/echoarcanadivisionprotocol-1.0.0-neoforge.jar",
       "assetName": "echoarcanadivisionprotocol-1.0.0-neoforge.jar",
-      "sha256": "ff32c2b61cce30f033bac8f3c515f6dd00abbc11bd28ff66a27254fbd8e994c4",
-      "size": 7822,
+      "artifactName": "echoarcanadivisionprotocol-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoarcanadivisionprotocol-1.0.0-neoforge.jar",
+      "sha256": "b19885c0d7a54978d1cfb3e2ec9c7ccc3f3ed7c7e205383744ea6f9063d8de9e",
+      "size": 8371,
       "required": true,
       "moduleId": "echoarcanadivisionprotocol",
-      "side": "both",
-      "artifactName": "echoarcanadivisionprotocol-1.0.0-neoforge.jar"
+      "side": "both"
+    },
+    {
+      "path": "mods/echoarcaneindex-1.0.0-neoforge.jar",
+      "assetName": "echoarcaneindex-1.0.0-neoforge.jar",
+      "artifactName": "echoarcaneindex-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoarcaneindex-1.0.0-neoforge.jar",
+      "sha256": "f4a276fa669d2d3f4b0322a520ddb0b831605c78883c5a976fcec4f4b9f1b20d",
+      "size": 31412,
+      "required": true,
+      "moduleId": "echoarcaneindex",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoblockworks-1.0.0-neoforge.jar",
+      "assetName": "echoblockworks-1.0.0-neoforge.jar",
+      "artifactName": "echoblockworks-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoblockworks-1.0.0-neoforge.jar",
+      "sha256": "68bc4f707c33b8d8591b8051f6e9e33eeabab38dce4075389353f24c1fbfb55d",
+      "size": 1302377,
+      "required": true,
+      "moduleId": "echoblockworks",
+      "side": "both"
+    },
+    {
+      "path": "mods/echocodexcore-1.0.0-neoforge.jar",
+      "assetName": "echocodexcore-1.0.0-neoforge.jar",
+      "artifactName": "echocodexcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocodexcore-1.0.0-neoforge.jar",
+      "sha256": "8e64a5685b741018734233904ff67f8e7b3ca41863fdc082d453acb116907383",
+      "size": 23060,
+      "required": true,
+      "moduleId": "echocodexcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echocommonloot-0.1.0-neoforge.jar",
+      "assetName": "echocommonloot-0.1.0-neoforge.jar",
+      "artifactName": "echocommonloot-0.1.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocommonloot-0.1.0-neoforge.jar",
+      "sha256": "7ebc9c0f6444b422058e891a2a9b812db6ef8c99ec7ad0ba9a64b94f75189411",
+      "size": 7784,
+      "required": true,
+      "moduleId": "echocommonloot",
+      "side": "both"
+    },
+    {
+      "path": "mods/echocontentcore-1.0.0-neoforge.jar",
+      "assetName": "echocontentcore-1.0.0-neoforge.jar",
+      "artifactName": "echocontentcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocontentcore-1.0.0-neoforge.jar",
+      "sha256": "61e02d63d0cc4aac9479d60465e7deea3bbdc4d3a852434f08e7fcd5784742c6",
+      "size": 33278,
+      "required": true,
+      "moduleId": "echocontentcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echocore-1.0.0-neoforge.jar",
+      "assetName": "echocore-1.0.0-neoforge.jar",
+      "artifactName": "echocore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocore-1.0.0-neoforge.jar",
+      "sha256": "4f6cad77dc52f1c45a901725c82edc2c5066d757b4a5b7dc8592f0cbc29dc33c",
+      "size": 368898,
+      "required": true,
+      "moduleId": "echocore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echocreatureroles-0.1.0-neoforge.jar",
+      "assetName": "echocreatureroles-0.1.0-neoforge.jar",
+      "artifactName": "echocreatureroles-0.1.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocreatureroles-0.1.0-neoforge.jar",
+      "sha256": "04300a92c27977a611be7e6d6b1f20c33969e2abf555346a825cfdd2bdf59d9f",
+      "size": 7627,
+      "required": true,
+      "moduleId": "echocreatureroles",
+      "side": "both"
+    },
+    {
+      "path": "mods/echocursecore-1.0.0-neoforge.jar",
+      "assetName": "echocursecore-1.0.0-neoforge.jar",
+      "artifactName": "echocursecore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echocursecore-1.0.0-neoforge.jar",
+      "sha256": "251520ce2f4a4c7c0bebbd4630ebb919574e3524bf648ce34eac4b97d6496055",
+      "size": 64087,
+      "required": true,
+      "moduleId": "echocursecore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echofamiliarcore-1.0.0-neoforge.jar",
+      "assetName": "echofamiliarcore-1.0.0-neoforge.jar",
+      "artifactName": "echofamiliarcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echofamiliarcore-1.0.0-neoforge.jar",
+      "sha256": "a73783d5b744f32339f3d946c26695dd1d399905b7885c4fde3b0ccceda866a6",
+      "size": 50037,
+      "required": true,
+      "moduleId": "echofamiliarcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echofoundationcore-0.1.0-neoforge.jar",
+      "assetName": "echofoundationcore-0.1.0-neoforge.jar",
+      "artifactName": "echofoundationcore-0.1.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echofoundationcore-0.1.0-neoforge.jar",
+      "sha256": "27353b883ccf37d38e2f8545f2d7529e88913292fc21b8e6799557a11a60721d",
+      "size": 10974,
+      "required": true,
+      "moduleId": "echofoundationcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echogrimoire-1.0.0-neoforge.jar",
+      "assetName": "echogrimoire-1.0.0-neoforge.jar",
+      "artifactName": "echogrimoire-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echogrimoire-1.0.0-neoforge.jar",
+      "sha256": "e4ae6a3e03c9355fabf7a5c7e20ec1d328344eca3d71363952bc0c65fbc9d100",
+      "size": 29528,
+      "required": true,
+      "moduleId": "echogrimoire",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoholomap-1.0.0-neoforge.jar",
+      "assetName": "echoholomap-1.0.0-neoforge.jar",
+      "artifactName": "echoholomap-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoholomap-1.0.0-neoforge.jar",
+      "sha256": "21160d1481035c06346b846959ead0963ba78a8b48549bb6b28d6a453f393fc6",
+      "size": 1496617,
+      "required": true,
+      "moduleId": "echoholomap",
+      "side": "both"
+    },
+    {
+      "path": "mods/echohudcore-1.0.0-neoforge.jar",
+      "assetName": "echohudcore-1.0.0-neoforge.jar",
+      "artifactName": "echohudcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echohudcore-1.0.0-neoforge.jar",
+      "sha256": "b236ec60e4a130d9b3904d979a624e023e08488161130165ee4ae127d065b790",
+      "size": 46538,
+      "required": true,
+      "moduleId": "echohudcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoindex-1.0.0-neoforge.jar",
+      "assetName": "echoindex-1.0.0-neoforge.jar",
+      "artifactName": "echoindex-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoindex-1.0.0-neoforge.jar",
+      "sha256": "6127192d084369215b03511d30530ad0b50a99f8cc6681f11b9c42b851de415e",
+      "size": 586934,
+      "required": true,
+      "moduleId": "echoindex",
+      "side": "both"
+    },
+    {
+      "path": "mods/echolens-1.0.0-neoforge.jar",
+      "assetName": "echolens-1.0.0-neoforge.jar",
+      "artifactName": "echolens-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echolens-1.0.0-neoforge.jar",
+      "sha256": "1d1f4b7641403d27205c155a4ad3b02d707065376bd030334a57c9554be7414a",
+      "size": 215171,
+      "required": true,
+      "moduleId": "echolens",
+      "side": "both"
+    },
+    {
+      "path": "mods/echomaterialcore-0.1.0-neoforge.jar",
+      "assetName": "echomaterialcore-0.1.0-neoforge.jar",
+      "artifactName": "echomaterialcore-0.1.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomaterialcore-0.1.0-neoforge.jar",
+      "sha256": "9c10f96b4870f8fea83c36ef808aa2142b4ec8bb1d117e069c6f41f8e034ef0f",
+      "size": 13236,
+      "required": true,
+      "moduleId": "echomaterialcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echomissioncore-1.0.0-neoforge.jar",
+      "assetName": "echomissioncore-1.0.0-neoforge.jar",
+      "artifactName": "echomissioncore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echomissioncore-1.0.0-neoforge.jar",
+      "sha256": "43176fbac099e4d8a06e8a44937d8ba5b13db2b5b8fab9117133830390541563",
+      "size": 103760,
+      "required": true,
+      "moduleId": "echomissioncore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echonetcore-1.0.0-neoforge.jar",
+      "assetName": "echonetcore-1.0.0-neoforge.jar",
+      "artifactName": "echonetcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echonetcore-1.0.0-neoforge.jar",
+      "sha256": "297243b98f05a6f6db64f9615c056d18b02314d7d53290cafc66a53d4b8e9e1b",
+      "size": 68893,
+      "required": true,
+      "moduleId": "echonetcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoplatformcore-1.0.0-neoforge.jar",
+      "assetName": "echoplatformcore-1.0.0-neoforge.jar",
+      "artifactName": "echoplatformcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoplatformcore-1.0.0-neoforge.jar",
+      "sha256": "79f79e1a8b78e36f16f116e79a505558cca503f80a442ddcc0b7313356e4d830",
+      "size": 46644,
+      "required": true,
+      "moduleId": "echoplatformcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echorelictech-1.0.0-neoforge.jar",
+      "assetName": "echorelictech-1.0.0-neoforge.jar",
+      "artifactName": "echorelictech-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echorelictech-1.0.0-neoforge.jar",
+      "sha256": "6155dcb76b61160216b9c4d6601718ba47f5ff96d524c1c5a0d0605bcc9db72e",
+      "size": 7709172,
+      "required": true,
+      "moduleId": "echorelictech",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoriftworlds-1.0.0-neoforge.jar",
+      "assetName": "echoriftworlds-1.0.0-neoforge.jar",
+      "artifactName": "echoriftworlds-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoriftworlds-1.0.0-neoforge.jar",
+      "sha256": "e5a5dd47735f99fbc84a9b376667aa6c6877b895c4e70ff69e57931c36b0e5d8",
+      "size": 33394,
+      "required": true,
+      "moduleId": "echoriftworlds",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoritualcore-1.0.0-neoforge.jar",
+      "assetName": "echoritualcore-1.0.0-neoforge.jar",
+      "artifactName": "echoritualcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoritualcore-1.0.0-neoforge.jar",
+      "sha256": "5844ee275702fbb086976e9dcb3db6d08754105f65c193c2cb12d9c8a3fdf739",
+      "size": 105140,
+      "required": true,
+      "moduleId": "echoritualcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoruntimeguard-1.0.0-neoforge.jar",
+      "assetName": "echoruntimeguard-1.0.0-neoforge.jar",
+      "artifactName": "echoruntimeguard-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoruntimeguard-1.0.0-neoforge.jar",
+      "sha256": "a62a9f28dadd82e47846749da9eea430055c447846dd6cb658db0958d901f55a",
+      "size": 127460,
+      "required": true,
+      "moduleId": "echoruntimeguard",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoschemacore-1.0.0-neoforge.jar",
+      "assetName": "echoschemacore-1.0.0-neoforge.jar",
+      "artifactName": "echoschemacore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoschemacore-1.0.0-neoforge.jar",
+      "sha256": "e23735cff56ca2966687974bfaa34ace5d34e47f9f082618660ba288bc5dd97b",
+      "size": 30714,
+      "required": true,
+      "moduleId": "echoschemacore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoscreencore-1.0.0-neoforge.jar",
+      "assetName": "echoscreencore-1.0.0-neoforge.jar",
+      "artifactName": "echoscreencore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoscreencore-1.0.0-neoforge.jar",
+      "sha256": "e6cf6b82fa1b247430e5f014885b9b13e79d3c5d431ccbb5cc8a1a257eb3ef74",
+      "size": 392469,
+      "required": true,
+      "moduleId": "echoscreencore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echosoundcore-1.0.0-neoforge.jar",
+      "assetName": "echosoundcore-1.0.0-neoforge.jar",
+      "artifactName": "echosoundcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echosoundcore-1.0.0-neoforge.jar",
+      "sha256": "7446f9e5665a21c183d41401ac4e07da23e0b3ac7d131cf11bdf2ce744981b82",
+      "size": 11079857,
+      "required": true,
+      "moduleId": "echosoundcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echospellcore-1.0.0-neoforge.jar",
+      "assetName": "echospellcore-1.0.0-neoforge.jar",
+      "artifactName": "echospellcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echospellcore-1.0.0-neoforge.jar",
+      "sha256": "08708081c9ff925af0d8c3d37583c6b1e10123e3203bfdb33857d759fdfd6fe1",
+      "size": 167062,
+      "required": true,
+      "moduleId": "echospellcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echostationcore-0.1.0-neoforge.jar",
+      "assetName": "echostationcore-0.1.0-neoforge.jar",
+      "artifactName": "echostationcore-0.1.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echostationcore-0.1.0-neoforge.jar",
+      "sha256": "159305f9a1f828a6c7ffb92b0b2cce29faedc6f22b75d6bbc8148a0373ad13a2",
+      "size": 9183,
+      "required": true,
+      "moduleId": "echostationcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoterminal-1.0.0-neoforge.jar",
+      "assetName": "echoterminal-1.0.0-neoforge.jar",
+      "artifactName": "echoterminal-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoterminal-1.0.0-neoforge.jar",
+      "sha256": "8dd9f28fc371d13967a355dcea58135124d873c8b0269c91f6f8693cc3b2a794",
+      "size": 22986204,
+      "required": true,
+      "moduleId": "echoterminal",
+      "side": "both"
+    },
+    {
+      "path": "mods/echothemecore-1.3.0-neoforge.jar",
+      "assetName": "echothemecore-1.3.0-neoforge.jar",
+      "artifactName": "echothemecore-1.3.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echothemecore-1.3.0-neoforge.jar",
+      "sha256": "1b74a176a5a08612b63214bb4e7162361ae9099ef15d86ff0115c72ab1d8abce",
+      "size": 69621182,
+      "required": true,
+      "moduleId": "echothemecore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echotoolcore-0.1.0-neoforge.jar",
+      "assetName": "echotoolcore-0.1.0-neoforge.jar",
+      "artifactName": "echotoolcore-0.1.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echotoolcore-0.1.0-neoforge.jar",
+      "sha256": "f99bff76c5ab9955b6fd3105fdc3c03fc3b11f49c3dd02ff1b0682df20b6d01a",
+      "size": 8994,
+      "required": true,
+      "moduleId": "echotoolcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echotutorialcore-1.0.0-neoforge.jar",
+      "assetName": "echotutorialcore-1.0.0-neoforge.jar",
+      "artifactName": "echotutorialcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echotutorialcore-1.0.0-neoforge.jar",
+      "sha256": "5f7c65c065b08a40d11ff496e78905230aaf504029e4129b3acdf45f1c75db87",
+      "size": 214988,
+      "required": true,
+      "moduleId": "echotutorialcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echovalidationcore-1.0.0-neoforge.jar",
+      "assetName": "echovalidationcore-1.0.0-neoforge.jar",
+      "artifactName": "echovalidationcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echovalidationcore-1.0.0-neoforge.jar",
+      "sha256": "93069daa5354b19cc4e939ec374d9b01a5e06d8b9fc0caed7955d6d2072f6c88",
+      "size": 42006,
+      "required": true,
+      "moduleId": "echovalidationcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoworldcore-1.0.0-neoforge.jar",
+      "assetName": "echoworldcore-1.0.0-neoforge.jar",
+      "artifactName": "echoworldcore-1.0.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoworldcore-1.0.0-neoforge.jar",
+      "sha256": "c15f531b6e370bfc845c31a1a3c1a060734d76317dd4cf35f0fdb9686c88c44c",
+      "size": 176880,
+      "required": true,
+      "moduleId": "echoworldcore",
+      "side": "both"
+    },
+    {
+      "path": "mods/echoworldstarter-0.1.0-neoforge.jar",
+      "assetName": "echoworldstarter-0.1.0-neoforge.jar",
+      "artifactName": "echoworldstarter-0.1.0-neoforge.jar",
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-all-official-modpacks-install-fix-20260613/echoworldstarter-0.1.0-neoforge.jar",
+      "sha256": "4fc4493fea0534356dd278b00c0b0738656dcb645bad150b091a8539bc25c819",
+      "size": 10307,
+      "required": true,
+      "moduleId": "echoworldstarter",
+      "side": "both"
     }
   ],
   "changelog": [
@@ -1036,6 +1284,15 @@
       "assetName": "neoforge-26.1.2-installer.jar",
       "sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
       "installMode": "client"
+    },
+    "versionJson": {
+      "id": "neoforge-26.1.2",
+      "inheritsFrom": "1.21.1",
+      "mainClass": "net.neoforged.neoforge.client.ClientMain",
+      "arguments": {
+        "game": [],
+        "jvm": []
+      }
     }
   },
   "launch": {
@@ -1045,5 +1302,16 @@
       "arcana-division-neoforge-edition"
     ],
     "jvmArgs": []
-  }
+  },
+  "runtime": {
+    "requiredJava": "25+",
+    "minecraftVersion": "1.21.1",
+    "assetIndex": "1.21.1"
+  },
+  "runtimeTarget": "neoforge",
+  "artifactUrl": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition/releases/download/arcana-division-neoforge-1.0.0-beta/arcana-division-neoforge-edition-1.0.0.zip",
+  "updatedAt": "2026-06-14T00:31:22.860Z",
+  "generatedBy": "scripts/rebuild-official-modpack-assets",
+  "validation": "approved",
+  "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json"
 }
