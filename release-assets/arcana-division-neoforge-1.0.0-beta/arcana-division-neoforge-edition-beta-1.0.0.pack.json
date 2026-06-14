@@ -10,8 +10,8 @@
   "minecraftVersion": "26.1.2",
   "artifactMode": "zip",
   "artifactName": "arcana-division-neoforge-edition-1.0.0.zip",
-  "artifactSha256": "2e88283769b31fc6a29271e9d6d962f9a90f1b7037af91a5b646c93de27bee1a",
-  "artifactSize": 118409717,
+  "artifactSha256": "0b93df35140263d5631657052b6c03a2a82cd584d5abc891b607a4a63dd45ec8",
+  "artifactSize": 116853498,
   "moduleArtifactFamily": "neoforge",
   "moduleReleaseId": "modules-arcana-division-1.0.0-beta",
   "moduleRequirements": [
