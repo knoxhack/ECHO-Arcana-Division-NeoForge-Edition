@@ -18,13 +18,13 @@
   "assets": [
     {
       "name": "arcana-division-neoforge-edition-1.0.0.zip",
-      "size": 96158590,
-      "sha256": "1194785f8feb4a72d3fbc64fe0c1f025a0def4b51afc300edfd925cc95ae7e0b"
+      "size": 118409717,
+      "sha256": "2e88283769b31fc6a29271e9d6d962f9a90f1b7037af91a5b646c93de27bee1a"
     },
     {
       "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-      "size": 33093,
-      "sha256": "10998f11d564e1e7d976b4649282a6183ba3d25612a1a5c22d0eeeff20d74063"
+      "size": 50908,
+      "sha256": "31a6afc4b42c6a397e9ca414ebf5154af4f19ff2245409bee8c73c70c517ce8d"
     },
     {
       "name": "checksums.txt",
@@ -33,8 +33,8 @@
     },
     {
       "name": "echo-release.json",
-      "size": 1801,
-      "sha256": "3e5144709817883906fcea22f050a86d1b80b4376c8de4db605b343c0a1f5cdc"
+      "size": 11646,
+      "sha256": "ab557b50ae47c71d01ce4daa0ac8acae639eb7dfc425402896550b650e315cf9"
     }
   ],
   "zip": {

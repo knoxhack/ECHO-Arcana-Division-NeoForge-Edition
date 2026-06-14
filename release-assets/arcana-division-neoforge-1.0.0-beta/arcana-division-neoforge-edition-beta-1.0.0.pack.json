@@ -1241,11 +1241,6 @@
     "type": "neoforge",
     "version": "26.1.2.29-beta",
     "minecraftLauncherVersionId": "neoforge-26.1.2.29-beta",
-    "installer": {
-      "assetName": "neoforge-26.1.2-installer.jar",
-      "sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      "installMode": "client"
-    },
     "versionJson": {
       "id": "neoforge-26.1.2.29-beta",
       "inheritsFrom": "26.1.2",
