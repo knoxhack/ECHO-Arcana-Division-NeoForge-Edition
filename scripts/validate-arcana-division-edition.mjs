@@ -37,6 +37,13 @@ if (!manifest.files?.some((file) => file.moduleId === 'echoarcanadivisionprotoco
 if (manifest.loader?.installer?.sha256 === 'f'.repeat(64)) errors.push('NeoForge installer SHA-256 is still a placeholder')
 if (release.id !== expected.packId) errors.push('release id mismatch')
 if (release.releaseTag !== 'arcana-division-neoforge-1.0.0-beta') errors.push('release tag mismatch')
+if (manifest.artifactName) {
+  const artifactPath = path.join(dist, manifest.artifactName)
+  const artifactSha256 = await sha256(artifactPath)
+  const artifactStat = await fs.stat(artifactPath)
+  if (manifest.artifactSha256 !== artifactSha256) errors.push('manifest artifactSha256 does not match the pack archive')
+  if (manifest.artifactSize !== artifactStat.size) errors.push('manifest artifactSize does not match the pack archive')
+}
 
 const checksumRows = (await fs.readFile(checksumsPath, 'utf8')).trim().split(/\r?\n/).filter(Boolean)
 for (const row of checksumRows) {

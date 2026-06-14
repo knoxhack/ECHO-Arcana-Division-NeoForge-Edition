@@ -6,7 +6,7 @@
   "channel": "beta",
   "releasedAt": "2026-06-14T01:26:58.945Z",
   "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-  "manifestSha256": "31a6afc4b42c6a397e9ca414ebf5154af4f19ff2245409bee8c73c70c517ce8d",
+  "manifestSha256": "7a5953f7d93c2e13d1ec19b9927d04f386fab310034c486a1022e148fa2c150e",
   "manifestSize": 50908,
   "artifactMode": "zip",
   "artifactAsset": "arcana-division-neoforge-edition-1.0.0.zip",
@@ -27,7 +27,7 @@
     {
       "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "31a6afc4b42c6a397e9ca414ebf5154af4f19ff2245409bee8c73c70c517ce8d",
+      "sha256": "7a5953f7d93c2e13d1ec19b9927d04f386fab310034c486a1022e148fa2c150e",
       "size": 50908
     },
     {
