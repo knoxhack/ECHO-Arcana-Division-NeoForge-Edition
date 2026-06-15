@@ -1,3 +1,3 @@
-0ee271fe546950ebfdfcbf0e9532b29e9880b2a6db40641657a63f597a3a12b8  echo-release.json
-fbbc97f86fcfdd9f78103690a60ffbd01cef23cc0e08294c2f60774a36d1f8ad  arcana-division-neoforge-edition-1.0.0.zip
-17d1a0edcd32d244cc6f2cc200c59ba516996f1931affe0eb5e505867b6314b5  arcana-division-neoforge-edition-beta-1.0.0.pack.json
+352a075ac32deedd5d174bfdac021f13d0d33886b2fa065ab5bc510b99f72c54  echo-release.json
+a8402f8f13755bfebf0c65b7bab6f4b0251e1bd45c851427683ce89e5c68b832  arcana-division-neoforge-edition-1.0.0.zip
+1a02c80d4656e0e02d07742f0945347cb41e225a34b2de7317c4826cb0fdbd29  arcana-division-neoforge-edition-beta-1.0.0.pack.json
