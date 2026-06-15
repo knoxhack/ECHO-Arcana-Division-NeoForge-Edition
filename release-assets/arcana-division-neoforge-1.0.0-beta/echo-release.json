@@ -6,12 +6,12 @@
   "channel": "beta",
   "releasedAt": "2026-06-14T01:26:58.945Z",
   "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-  "manifestSha256": "5eb9ca4eac6383f54b4a78f1ed2c72544ea0254158f4f73f130c806d2e6d2eb1",
-  "manifestSize": 54861,
+  "manifestSha256": "17d1a0edcd32d244cc6f2cc200c59ba516996f1931affe0eb5e505867b6314b5",
+  "manifestSize": 84888,
   "artifactMode": "zip",
   "artifactAsset": "arcana-division-neoforge-edition-1.0.0.zip",
-  "artifactSha256": "1be9004099013dafd8ad1c685113e4758174f985769c453870d98ffd0a35dd5e",
-  "artifactSize": 117099154,
+  "artifactSha256": "fbbc97f86fcfdd9f78103690a60ffbd01cef23cc0e08294c2f60774a36d1f8ad",
+  "artifactSize": 117103104,
   "moduleRelease": "modules-all-official-modpacks-runtime-fix-20260614",
   "packs": [
     {
@@ -27,14 +27,14 @@
     {
       "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "5eb9ca4eac6383f54b4a78f1ed2c72544ea0254158f4f73f130c806d2e6d2eb1",
-      "size": 54861
+      "sha256": "17d1a0edcd32d244cc6f2cc200c59ba516996f1931affe0eb5e505867b6314b5",
+      "size": 84888
     },
     {
       "name": "arcana-division-neoforge-edition-1.0.0.zip",
       "role": "pack-artifact",
-      "sha256": "1be9004099013dafd8ad1c685113e4758174f985769c453870d98ffd0a35dd5e",
-      "size": 117099154
+      "sha256": "fbbc97f86fcfdd9f78103690a60ffbd01cef23cc0e08294c2f60774a36d1f8ad",
+      "size": 117103104
     },
     {
       "name": "echoadaptercore-1.0.0-neoforge.jar",
