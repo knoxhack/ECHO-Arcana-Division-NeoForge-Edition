@@ -5,20 +5,20 @@
   "name": "Arcana Division NeoForge Edition",
   "version": "1.0.1",
   "channel": "beta",
-  "moduleRelease": "release-index-current-module-artifacts-20260616",
-  "moduleSourceRevision": "ECHO-Release-Index modules/*.json current artifacts, 2026-06-16",
+  "moduleRelease": "modules-canonical-full-20260616",
+  "moduleSourceRevision": "ECHO-Modules modules-canonical-full-20260616 (9f25b667), 2026-06-16",
   "releaseTag": "arcana-division-neoforge-1.0.1-beta",
   "sourceRepo": "knoxhack/ECHO-Arcana-Division-NeoForge-Edition",
   "moduleCount": 39,
   "artifact": {
     "name": "arcana-division-neoforge-edition-1.0.1.zip",
-    "sha256": "7cc4fd7252ec6ab9a89048b872cdfb2cdeac93c827718db2be6af093677ffea2",
-    "size": 117203529
+    "sha256": "c66df4f993d85a3cb33656fb0a0144dbd638124fbd6c2665c0944a2f4bd1b10a",
+    "size": 117201302
   },
   "manifest": {
     "name": "arcana-division-neoforge-edition-beta-1.0.1.pack.json",
-    "sha256": "e537657348928db03c49916f171adef3d54915dd8dcb41ddda5f4b190b1a1632",
-    "size": 86825
+    "sha256": "0526b9d338fe142760a0159bd376f1eba2147c07706bb79982b51a670eef5a81",
+    "size": 85553
   },
-  "generatedAt": "2026-06-16T10:09:13.237Z"
+  "generatedAt": "2026-06-16T15:34:45.864Z"
 }
