@@ -12,13 +12,13 @@
   "moduleCount": 39,
   "artifact": {
     "name": "arcana-division-neoforge-edition-1.0.0.zip",
-    "sha256": "00b1b03c602ff13d6d4cf4fb3b37265b1f29afbfe507c87469d7d978e0cd0c2d",
-    "size": 117200866
+    "sha256": "c1a9e8fbc28cf96323cfc51d2a6e27fb1f45eab07f487031dc529f62b67ecb8b",
+    "size": 117200124
   },
   "manifest": {
     "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-    "sha256": "76117153f2dc559257ba25922b24fffdee976d6dceb6c92162aa593ee9320671",
-    "size": 86446
+    "sha256": "2cc51085b936e003494ac198b5627a8b7606bc56c871e605d7b559071b660a81",
+    "size": 86234
   },
-  "generatedAt": "2026-06-16T01:20:45.636Z"
+  "generatedAt": "2026-06-16T02:18:27.145Z"
 }
