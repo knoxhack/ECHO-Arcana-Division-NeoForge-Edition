@@ -23,9 +23,9 @@
       "path": "mods/echoadaptercore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both",
-      "sha256": "58172c454a08644d794b0d4a29d1a7b5bab8651c6657006a8caa091fbf308188",
-      "size": 957538,
-      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-content-graph-evidence-proof-20260615/echoadaptercore-1.0.0-neoforge.jar"
+      "sha256": "06e762775bab4ae85178d8ce8af4ad0065fb95aa033841c8290d9b756b84fb21",
+      "size": 970532,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/adaptercore-receipt-spine-20260616/echoadaptercore-1.0.0-neoforge.jar"
     },
     {
       "id": "echoaetherworks",
@@ -848,9 +848,9 @@
       "path": "mods/echoadaptercore-1.0.0-neoforge.jar",
       "required": true,
       "side": "both",
-      "sha256": "58172c454a08644d794b0d4a29d1a7b5bab8651c6657006a8caa091fbf308188",
-      "size": 957538,
-      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-content-graph-evidence-proof-20260615/echoadaptercore-1.0.0-neoforge.jar"
+      "sha256": "06e762775bab4ae85178d8ce8af4ad0065fb95aa033841c8290d9b756b84fb21",
+      "size": 970532,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/adaptercore-receipt-spine-20260616/echoadaptercore-1.0.0-neoforge.jar"
     },
     {
       "id": "echoaetherworks",
@@ -2151,12 +2151,12 @@
   },
   "runtimeTarget": "neoforge",
   "artifactUrl": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition/releases/download/arcana-division-neoforge-1.0.0-beta/arcana-division-neoforge-edition-1.0.0.zip",
-  "updatedAt": "2026-06-14T03:23:16.009Z",
+  "updatedAt": "2026-06-16T01:20:24.401Z",
   "generatedBy": "scripts/rebuild-official-modpack-assets",
   "validation": "approved",
   "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
   "moduleRelease": "release-index-current-module-artifacts-20260616",
   "moduleSourceRevision": "ECHO-Release-Index modules/*.json current artifacts, 2026-06-16",
-  "artifactSha256": "98ebff748c057d18daf86ec50266559fdb26941a29d123ae4e386ca3e5f241a6",
-  "artifactSize": 118782966
+  "artifactSha256": "00b1b03c602ff13d6d4cf4fb3b37265b1f29afbfe507c87469d7d978e0cd0c2d",
+  "artifactSize": 117200866
 }

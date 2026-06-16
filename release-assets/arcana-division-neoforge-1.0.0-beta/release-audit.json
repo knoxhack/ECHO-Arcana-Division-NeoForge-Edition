@@ -1,76 +1,24 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-06-15T07:39:30.236Z",
-  "repository": "knoxhack/ECHO-Arcana-Division-NeoForge-Edition",
+  "schemaVersion": "echo.official_modpack.release_audit.v1",
+  "status": "rebuilt-from-current-module-catalog",
+  "pack": "arcana-division-neoforge-edition",
+  "name": "Arcana Division NeoForge Edition",
+  "version": "1.0.0",
+  "channel": "beta",
+  "moduleRelease": "release-index-current-module-artifacts-20260616",
+  "moduleSourceRevision": "ECHO-Release-Index modules/*.json current artifacts, 2026-06-16",
   "releaseTag": "arcana-division-neoforge-1.0.0-beta",
-  "status": "pass",
-  "releaseUrl": "https://github.com/knoxhack/ECHO-Arcana-Division-NeoForge-Edition/releases/tag/arcana-division-neoforge-1.0.0-beta",
-  "assetDirectory": "C:\\Development\\Github\\ECHO-Arcana-Division-NeoForge-Edition\\release-assets\\arcana-division-neoforge-1.0.0-beta",
-  "uploadedReleaseAssets": [
-    "arcana-division-neoforge-edition-1.0.0.zip",
-    "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-    "checksums.txt",
-    "echo-release.json"
-  ],
-  "sidecarAssets": [
-    "release-audit.json"
-  ],
-  "assets": [
-    {
-      "name": "arcana-division-neoforge-edition-1.0.0.zip",
-      "size": 116950657,
-      "sha256": "a8402f8f13755bfebf0c65b7bab6f4b0251e1bd45c851427683ce89e5c68b832"
-    },
-    {
-      "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-      "size": 85758,
-      "sha256": "1a02c80d4656e0e02d07742f0945347cb41e225a34b2de7317c4826cb0fdbd29"
-    },
-    {
-      "name": "checksums.txt",
-      "size": 313,
-      "sha256": "1d32781a5f5a16b285e2c5a2f5aa648818d00a6925eb5353944a0c8e0939897d"
-    },
-    {
-      "name": "echo-release.json",
-      "size": 11912,
-      "sha256": "352a075ac32deedd5d174bfdac021f13d0d33886b2fa065ab5bc510b99f72c54"
-    }
-  ],
-  "zip": {
-    "file": "arcana-division-neoforge-edition-1.0.0.zip",
-    "entries": null,
-    "sha256": "a8402f8f13755bfebf0c65b7bab6f4b0251e1bd45c851427683ce89e5c68b832"
+  "sourceRepo": "knoxhack/ECHO-Arcana-Division-NeoForge-Edition",
+  "moduleCount": 39,
+  "artifact": {
+    "name": "arcana-division-neoforge-edition-1.0.0.zip",
+    "sha256": "00b1b03c602ff13d6d4cf4fb3b37265b1f29afbfe507c87469d7d978e0cd0c2d",
+    "size": 117200866
   },
-  "checksumCoverage": {
-    "total": 3,
-    "ok": 3,
-    "missing": 0,
-    "mismatched": 0
+  "manifest": {
+    "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
+    "sha256": "76117153f2dc559257ba25922b24fffdee976d6dceb6c92162aa593ee9320671",
+    "size": 86446
   },
-  "checksumEntries": [
-    {
-      "file": "echo-release.json",
-      "expectedSha256": "352a075ac32deedd5d174bfdac021f13d0d33886b2fa065ab5bc510b99f72c54",
-      "actualSha256": "352a075ac32deedd5d174bfdac021f13d0d33886b2fa065ab5bc510b99f72c54",
-      "coveredBy": "release-asset-file",
-      "matchedPath": "echo-release.json"
-    },
-    {
-      "file": "arcana-division-neoforge-edition-1.0.0.zip",
-      "expectedSha256": "a8402f8f13755bfebf0c65b7bab6f4b0251e1bd45c851427683ce89e5c68b832",
-      "actualSha256": "a8402f8f13755bfebf0c65b7bab6f4b0251e1bd45c851427683ce89e5c68b832",
-      "coveredBy": "release-asset-file",
-      "matchedPath": "arcana-division-neoforge-edition-1.0.0.zip"
-    },
-    {
-      "file": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-      "expectedSha256": "1a02c80d4656e0e02d07742f0945347cb41e225a34b2de7317c4826cb0fdbd29",
-      "actualSha256": "1a02c80d4656e0e02d07742f0945347cb41e225a34b2de7317c4826cb0fdbd29",
-      "coveredBy": "release-asset-file",
-      "matchedPath": "arcana-division-neoforge-edition-beta-1.0.0.pack.json"
-    }
-  ],
-  "missingChecksumEntries": [],
-  "mismatchedChecksumEntries": []
+  "generatedAt": "2026-06-16T01:20:45.636Z"
 }

@@ -4,14 +4,14 @@
   "name": "Arcana Division NeoForge Edition",
   "version": "1.0.0",
   "channel": "beta",
-  "releasedAt": "2026-06-16T00:35:21.020Z",
+  "releasedAt": "2026-06-16T01:20:45.637Z",
   "manifestAsset": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
-  "manifestSha256": "6e76e61a1c726888b9873ec81f793cc558d54de05eb2d2cb5becc6ebd4a81ad4",
-  "manifestSize": 85758,
+  "manifestSha256": "76117153f2dc559257ba25922b24fffdee976d6dceb6c92162aa593ee9320671",
+  "manifestSize": 86446,
   "artifactMode": "zip",
   "artifactAsset": "arcana-division-neoforge-edition-1.0.0.zip",
-  "artifactSha256": "98ebff748c057d18daf86ec50266559fdb26941a29d123ae4e386ca3e5f241a6",
-  "artifactSize": 118782966,
+  "artifactSha256": "00b1b03c602ff13d6d4cf4fb3b37265b1f29afbfe507c87469d7d978e0cd0c2d",
+  "artifactSize": 117200866,
   "moduleRelease": "release-index-current-module-artifacts-20260616",
   "packs": [
     {
@@ -27,21 +27,21 @@
     {
       "name": "arcana-division-neoforge-edition-beta-1.0.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "6e76e61a1c726888b9873ec81f793cc558d54de05eb2d2cb5becc6ebd4a81ad4",
-      "size": 86468
+      "sha256": "76117153f2dc559257ba25922b24fffdee976d6dceb6c92162aa593ee9320671",
+      "size": 86446
     },
     {
       "name": "arcana-division-neoforge-edition-1.0.0.zip",
       "role": "pack-artifact",
-      "sha256": "98ebff748c057d18daf86ec50266559fdb26941a29d123ae4e386ca3e5f241a6",
-      "size": 118782966
+      "sha256": "00b1b03c602ff13d6d4cf4fb3b37265b1f29afbfe507c87469d7d978e0cd0c2d",
+      "size": 117200866
     },
     {
       "name": "echoadaptercore-1.0.0-neoforge.jar",
       "role": "pack-file",
       "path": "mods/echoadaptercore-1.0.0-neoforge.jar",
-      "sha256": "58172c454a08644d794b0d4a29d1a7b5bab8651c6657006a8caa091fbf308188",
-      "size": 957538
+      "sha256": "06e762775bab4ae85178d8ce8af4ad0065fb95aa033841c8290d9b756b84fb21",
+      "size": 970532
     },
     {
       "name": "echoaetherworks-1.0.0-neoforge.jar",
@@ -314,6 +314,5 @@
     "Arcana Division NeoForge Edition refreshed against the current Release Index module catalog.",
     "Pack module files, sidecar metadata, and archive checksums are pinned to current GitHub module artifacts."
   ],
-  "moduleSourceRevision": "ECHO-Release-Index modules/*.json current artifacts, 2026-06-16",
-  "schemaVersion": "echo.release.index.entry.v1"
+  "moduleSourceRevision": "ECHO-Release-Index modules/*.json current artifacts, 2026-06-16"
 }
