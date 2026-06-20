@@ -4,14 +4,6 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const dist = path.join(repoRoot, 'dist')
-const expected = {
-  packId: 'arcana-division-neoforge-edition',
-  version: '1.0.0',
-  channel: 'beta',
-  target: 'neoforge',
-  moduleRequirements: 39,
-}
 
 async function sha256(filePath) {
   return createHash('sha256').update(await fs.readFile(filePath)).digest('hex')
@@ -21,11 +13,23 @@ async function readJson(filePath) {
   return JSON.parse(await fs.readFile(filePath, 'utf8'))
 }
 
-const manifestPath = path.join(dist, 'arcana-division-neoforge-edition-beta-1.0.0.pack.json')
-const releasePath = path.join(dist, 'echo-release.json')
-const checksumsPath = path.join(dist, 'checksums.txt')
+const template = await readJson(path.join(repoRoot, 'release-manifest.template.json'))
+const releaseDir = path.join(repoRoot, 'release-assets', template.releaseTag)
+const expected = {
+  packId: template.id ?? template.pack,
+  version: template.version,
+  channel: template.channel,
+  target: template.target,
+  moduleRequirements: (template.moduleRequirements ?? []).length,
+}
+
+const manifestPath = path.join(releaseDir, template.manifestAsset)
+const releasePath = path.join(releaseDir, 'echo-release.json')
+const releaseAuditPath = path.join(releaseDir, 'release-audit.json')
+const checksumsPath = path.join(releaseDir, 'checksums.txt')
 const manifest = await readJson(manifestPath)
 const release = await readJson(releasePath)
+const releaseAudit = await readJson(releaseAuditPath)
 
 const errors = []
 if (manifest.pack !== expected.packId) errors.push('pack id mismatch')
@@ -35,10 +39,10 @@ if (manifest.target !== expected.target) errors.push('manifest target mismatch')
 if ((manifest.moduleRequirements ?? []).length !== expected.moduleRequirements) errors.push(`moduleRequirements must contain ${expected.moduleRequirements} entries`)
 if (!manifest.files?.some((file) => file.moduleId === 'echoarcanadivisionprotocol')) errors.push('pack root protocol artifact is missing from files')
 if (manifest.loader?.installer?.sha256 === 'f'.repeat(64)) errors.push('NeoForge installer SHA-256 is still a placeholder')
-if (release.id !== expected.packId) errors.push('release id mismatch')
-if (release.releaseTag !== 'arcana-division-neoforge-1.0.0-beta') errors.push('release tag mismatch')
+if ((release.pack ?? release.id) !== expected.packId) errors.push('release id mismatch')
+if (releaseAudit.releaseTag !== template.releaseTag) errors.push('release tag mismatch')
 if (manifest.artifactName) {
-  const artifactPath = path.join(dist, manifest.artifactName)
+  const artifactPath = path.join(releaseDir, manifest.artifactName)
   const artifactSha256 = await sha256(artifactPath)
   const artifactStat = await fs.stat(artifactPath)
   if (manifest.artifactSha256 !== artifactSha256) errors.push('manifest artifactSha256 does not match the pack archive')
@@ -48,7 +52,7 @@ if (manifest.artifactName) {
 const checksumRows = (await fs.readFile(checksumsPath, 'utf8')).trim().split(/\r?\n/).filter(Boolean)
 for (const row of checksumRows) {
   const [hash, file] = row.split(/\s+/)
-  const actual = await sha256(path.join(dist, file))
+  const actual = await sha256(path.join(releaseDir, file))
   if (hash !== actual) errors.push(`checksum mismatch for ${file}`)
 }
 

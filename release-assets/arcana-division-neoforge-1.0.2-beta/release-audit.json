@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "echo.official_modpack.release_audit.v1",
+  "status": "rebuilt-from-current-module-catalog",
+  "pack": "arcana-division-neoforge-edition",
+  "name": "Arcana Division NeoForge Edition",
+  "version": "1.0.2",
+  "channel": "beta",
+  "moduleRelease": "modules-beta-full-20260620",
+  "moduleSourceRevision": "ECHO-Modules modules-beta-full-20260620 (2a1c2ec8), 2026-06-20",
+  "releaseTag": "arcana-division-neoforge-1.0.2-beta",
+  "sourceRepo": "knoxhack/ECHO-Arcana-Division-NeoForge-Edition",
+  "moduleCount": 39,
+  "artifact": {
+    "name": "arcana-division-neoforge-edition-1.0.2.zip",
+    "sha256": "dcf0e2638a743aae313d840fc59fca3a077b60734e9281b7fae146594db00f5c",
+    "size": 117284749
+  },
+  "manifest": {
+    "name": "arcana-division-neoforge-edition-beta-1.0.2.pack.json",
+    "sha256": "1a170a26abf7ec74b870307119b9493ff8a2d7df29697bfd0f6b12f6b5d46fc5",
+    "size": 85145
+  },
+  "generatedAt": "2026-06-20T04:40:59.376Z"
+}
